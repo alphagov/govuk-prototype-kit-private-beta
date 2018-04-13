@@ -6,6 +6,8 @@ This prototype will ask the user a few questions, tell them if they’re eligibl
 
 Our prototype will look a bit like this:
 
+![Flow chart of the prototype we'll build](/public/images/docs/prototype-flow.png)
+
 ## Sections
 
 1. [Get set up](tutorial/1-get-set-up)

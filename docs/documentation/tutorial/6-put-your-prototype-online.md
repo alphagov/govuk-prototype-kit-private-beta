@@ -54,6 +54,8 @@ Select **Europe** for the region - this is not important but makes your prototyp
 
 For **deployment method** choose **GitHub**.
 
+![Heroku screenshot](/public/images/docs/heroku-deploy.png)
+
 Scroll down and click **Connect to GitHub**.
 
 In the popup, click **Authorize Heroku**.
