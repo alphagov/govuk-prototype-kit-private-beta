@@ -29,6 +29,7 @@ router.get('/install/:page', function (req, res) {
   if (req.params.page.slice(-3).toLowerCase() === '.md') {
     req.params.page = req.params.page.slice(0, -3)
   }
+  console.log('page', req.params.page)
   redirectMarkdown(req.params.page, res)
   var doc = fs.readFileSync(path.join(__dirname, '/documentation/install/', req.params.page + '.md'), 'utf8')
   var html = marked(doc)
@@ -53,6 +54,22 @@ router.get('/privacy-policy', function (req, res) {
     // add page layout
     res.render('markdown-docs-layout', {'document': html})
   })
+})
+
+// Pages in tutorial folder are markdown
+router.get('/tutorial/:page?', function (req, res) {
+  // If the link already has .md on the end (for GitHub docs)
+  // remove this when we render the page
+  if (req.params.page === undefined){
+    req.params.page = 'index'
+  }
+  if (req.params.page.slice(-3).toLowerCase() === '.md') {
+    req.params.page = req.params.page.slice(0, -3)
+  }
+  redirectMarkdown(req.params.page, res)
+  var doc = fs.readFileSync(path.join(__dirname, '/documentation/tutorial/', req.params.page + '.md'), 'utf8')
+  var html = marked(doc)
+  res.render('tutorial_template', {'document': html})
 })
 
 // Examples - examples post here
