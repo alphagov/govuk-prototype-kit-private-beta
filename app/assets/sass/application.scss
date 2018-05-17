@@ -2,7 +2,10 @@
 // in the govuk frontend toolkit's url-helpers partial
 $path: "/public/images/";
 
-//Import GOV.UK Frontend
+// Import GOV.UK Elements - supporting people who are still using it
+@import 'govuk-elements';
+
+// Import GOV.UK Frontend
 @import "@govuk-frontend/all/all";
 
 // Patterns that aren't in Frontend
