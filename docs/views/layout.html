@@ -6,11 +6,19 @@
     {% include "includes/tracking_head.html" %}
   {% endif %}
 {% endblock %}
-
 {% block pageTitle %}
   GOV.UK prototype kit
 {% endblock %}
 
+{% block body_start %}
+  {% if promoMode == 'true' and gtmId %}
+    {% include "includes/tracking_body.html" %}
+  {% endif %}
+{% endblock %}
+
+{% block cookie_message %}
+  <p>{{cookieText | safe }}</p>
+{% endblock %}
 
 {% block bodyStart %}
   {% if doNotTrackEnabled == false and promoMode == 'true' and gtmId %}
@@ -20,7 +28,7 @@
 
 
 {% block main %}
-  <div class="govuk-width-container">         
+  <div class="govuk-width-container">
     <p>{{cookieText | safe }}</p>
   </div>
   {{ super() }}
