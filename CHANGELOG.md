@@ -2,7 +2,10 @@
 
 Bug fixes:
 
+- [#63 Fix markdown-docs-layout-template](https://github.com/alphagov/govuk-prototype-kit-private-beta/pull/63)
+
 - [#62 Add cookie-banner styles and javascript](https://github.com/alphagov/govuk-prototype-kit-private-beta/pull/62)
+
 
 # 7.0.0-beta.8
 
