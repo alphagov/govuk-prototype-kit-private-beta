@@ -27,9 +27,6 @@
 {% endblock %}
 
 {% block main %}
-  <div class="govuk-width-container">
-    <p class="govuk-body govuk-!-margin-top-3">{{cookieText | safe }}</p>
-  </div>
   {{ super() }}
 {% endblock %}
 
@@ -38,7 +35,9 @@
 {% endblock %}
 {% block header %}
   {# Set serviceName in config.js. #}
-
+  <div class="app-cookie-banner js-cookie-banner">
+    <p class="app-cookie-banner__message">{{cookieText | safe }}</p>
+  </div>
   {{ govukHeader({
     "homepageUrl": "/",
     "serviceName": serviceName,

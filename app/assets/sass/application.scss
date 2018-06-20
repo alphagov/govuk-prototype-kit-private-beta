@@ -8,6 +8,9 @@ $govuk-global-styles: true;
 @import 'patterns/check-your-answers';
 @import 'patterns/related-items';
 
+//cookie-banner
+@import "../../../docs/assets/sass/cookie-banner";
+
 .code {
   color: $govuk-text-colour;
   background-color: govuk-colour("grey-4");
