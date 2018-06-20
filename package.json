@@ -12,7 +12,6 @@
     "test": "gulp test && npm run lint"
   },
   "dependencies": {
-    "govuk-frontend": "0.0.32",
     "basic-auth": "^1.0.3",
     "basic-auth-connect": "^1.0.0",
     "body-parser": "^1.14.1",
@@ -22,6 +21,10 @@
     "express": "4.15.2",
     "express-session": "^1.13.0",
     "express-writer": "0.0.4",
+    "govuk-elements-sass": "^3.1.2",
+    "govuk-frontend": "0.0.32",
+    "govuk_frontend_toolkit": "^7.5.0",
+    "govuk_template_jinja": "^0.24.0",
     "gulp": "^3.9.1",
     "gulp-clean": "^0.3.2",
     "gulp-mocha": "^4.3.1",
