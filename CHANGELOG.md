@@ -10,6 +10,8 @@ Bug fixes:
 
 - [#62 Add cookie-banner styles and javascript](https://github.com/alphagov/govuk-prototype-kit-private-beta/pull/62)
 
+- [#66 Update links to point at vanity design system URL](https://github.com/alphagov/govuk-prototype-kit-private-beta/pull/66)
+
 
 # 7.0.0-beta.8
 
