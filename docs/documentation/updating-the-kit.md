@@ -8,7 +8,7 @@ If you have made any changes outside the `app` folder, this process will destroy
 
 ### Steps
 
-Download the latest prototype kit zip file from GitHub
+Download the latest Prototype Kit zip file from GitHub
 
 In your project, delete everything apart from the `app` and `.git` folder
 
@@ -118,13 +118,13 @@ In terminal:
 npm start
 ```
 
-If you still have an error, you can [raise an issue within github](https://github.com/alphagov/govuk_prototype_kit/issues) or ask in the [Slack channel for users of the prototype kit](https://ukgovernmentdigital.slack.com/messages/prototype-kit/) by providing as much information as you can about the error and the computer you are attempting to run the prototyping kit on.
+If you still have an error, you can [raise an issue within github](https://github.com/alphagov/govuk_prototype_kit/issues) or ask in the [Slack channel for users of the Prototype Kit](https://ukgovernmentdigital.slack.com/messages/prototype-kit/) by providing as much information as you can about the error and the computer you are attempting to run the prototyping kit on.
 
 ---
 
 ## Converting old prototypes
 
-Earlier versions of the prototype kit used a different templating language called Mustache.
+Earlier versions of the Prototype Kit used a different templating language called Mustache.
 
 Converting Mustache templates to Nunjucks ones is relatively simple. Here are the main things you'll need to do:
 
@@ -141,13 +141,13 @@ Becomes…
 ### Template blocks
 
     {{$pageTitle}}
-        GOV.UK prototype kit
+        GOV.UK Prototype Kit
     {{/pageTitle}}
 
 Becomes…
 
     {% block pageTitle %}
-        GOV.UK prototype kit
+        GOV.UK Prototype Kit
     {% endblock %}
 
 and
