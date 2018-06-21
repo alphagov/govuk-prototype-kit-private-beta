@@ -1,6 +1,6 @@
 # Principles
 
-The prototype kit:
+The Prototype Kit:
 
 - is designed for prototyping, not for production code
 - requires minimal skills to get started: HTML, CSS

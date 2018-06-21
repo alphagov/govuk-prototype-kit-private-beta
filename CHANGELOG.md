@@ -6,6 +6,8 @@ New features:
 
 Bug fixes:
 
+- [#67 Use correct casing for 'Prototype Kit' throughout](https://github.com/alphagov/govuk-prototype-kit-private-beta/pull/67)
+
 - [#63 Fix markdown-docs-layout-template](https://github.com/alphagov/govuk-prototype-kit-private-beta/pull/63)
 
 - [#62 Add cookie-banner styles and javascript](https://github.com/alphagov/govuk-prototype-kit-private-beta/pull/62)

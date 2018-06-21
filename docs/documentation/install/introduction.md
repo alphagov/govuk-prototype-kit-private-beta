@@ -10,7 +10,7 @@ This guide is a work in progress. Please help [contribute](https://github.com/al
 
 ## Introduction
 
-The prototype kit provides a simple way to make interactive prototypes that look and feel like pages on GOV.UK. These prototypes can be used to design and lay out pages, and to use in user research.
+The Prototype Kit provides a simple way to make interactive prototypes that look and feel like pages on GOV.UK. These prototypes can be used to design and lay out pages, and to use in user research.
 
 
 
