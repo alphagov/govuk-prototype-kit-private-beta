@@ -1,5 +1,9 @@
 # Unreleased
 
+New features:
+
+- [#65 Update GOV.UK frontend to version 1.0.0](https://github.com/alphagov/govuk-prototype-kit-private-beta/pull/65)
+
 Bug fixes:
 
 - [#63 Fix markdown-docs-layout-template](https://github.com/alphagov/govuk-prototype-kit-private-beta/pull/63)
