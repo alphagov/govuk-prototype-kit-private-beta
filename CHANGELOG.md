@@ -4,6 +4,8 @@ New features:
 
 - [#65 Update GOV.UK frontend to version 1.0.0](https://github.com/alphagov/govuk-prototype-kit-private-beta/pull/65)
 
+- [#68 Reintroduce task list pattern](https://github.com/alphagov/govuk-prototype-kit-private-beta/pull/68)
+
 Bug fixes:
 
 - [#67 Use correct casing for 'Prototype Kit' throughout](https://github.com/alphagov/govuk-prototype-kit-private-beta/pull/67)
