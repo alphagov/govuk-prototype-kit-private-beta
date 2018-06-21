@@ -1,5 +1,8 @@
 # Unreleased
 
+Bug fixes:
+- [#72 Update task-list example](https://github.com/alphagov/govuk-prototype-kit-private-beta/pull/72)
+
 # 7.0.0-beta.9
 
 New features:
