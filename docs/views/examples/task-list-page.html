@@ -1,0 +1,108 @@
+{% extends "layout.html" %}
+
+{% from "tag/macro.njk" import govukTag %}
+
+{% block pageTitle %}
+  Task list
+{% endblock %}
+
+{% block content %}
+  <div class="grid-grid-row">
+    <div class="govuk-grid-column-two-thirds app-column-minimum">
+
+      <h1 class="govuk-heading-l">
+        Service name goes here
+      </h1>
+
+      <ol class="app-task-list">
+        <li>
+          <h2 class="app-task-list__section">
+            <span class="app-task-list__section-number">1. </span> Check before you start
+          </h2>
+          <ul class="app-task-list__items">
+            <li class="app-task-list__item">
+              <a class="app-task-list__task-name" href="#" aria-describedby="eligibility-completed">
+                Check eligibility
+              </a>
+              {{ govukTag({
+                attributes: { id: "eligibility-completed" },
+                classes: "app-task-list__task-completed",
+                text: "Completed"
+              }) }}
+            </li>
+            <li class="app-task-list__item">
+              <a class="app-task-list__task-name" href="#" aria-describedby="read-declaration-completed">
+                Read declaration
+              </a>
+              {{ govukTag({
+                attributes: { id: "read-declaration-completed" },
+                classes: "app-task-list__task-completed",
+                text: "Completed"
+              }) }}
+            </li>
+          </ul>
+        </li>
+        <li>
+          <h2 class="app-task-list__section">
+            <span class="app-task-list__section-number">2. </span> Prepare application
+          </h2>
+          <ul class="app-task-list__items">
+            <li class="app-task-list__item">
+              <a class="app-task-list__task-name" href="#" aria-describedby="company-information-completed">
+                Company information
+              </a>
+              {{ govukTag({
+                attributes: { id: "company-information-completed" },
+                classes: "app-task-list__task-completed",
+                text: "Completed"
+              }) }}
+            </li>
+            <li class="app-task-list__item">
+              <a class="app-task-list__task-name" href="#" aria-describedby="contact-details-completed">
+                Your contact details
+              </a>
+              {{ govukTag({
+                attributes: { id: "contact-details-completed" },
+                classes: "app-task-list__task-completed",
+                text: "Completed"
+              }) }}
+            </li>
+            <li class="app-task-list__item">
+              <a class="app-task-list__task-name" href="#">
+                List convictions
+              </a>
+            </li>
+            <li class="app-task-list__item">
+              <a class="app-task-list__task-name" href="#">
+                Provide financial evidence
+              </a>
+            </li>
+            <li class="app-task-list__item">
+              <a class="app-task-list__task-name" href="#" aria-describedby="medical-information-completed">
+                Give medical information
+              </a>
+              {{ govukTag({
+                attributes: { id: "medical-information-completed" },
+                classes: "app-task-list__task-completed",
+                text: "Completed"
+              }) }}
+            </li>
+          </ul>
+        </li>
+        <li>
+          <h2 class="app-task-list__section">
+            <span class="app-task-list__section-number">3. </span> Apply
+          </h2>
+          <ul class="app-task-list__items">
+            <li class="app-task-list__item">
+              <a class="app-task-list__task-name" href="#">
+                Submit and pay
+              </a>
+            </li>
+          </ul>
+        </li>
+      </ol>
+    </div>
+    <div class="govuk-clearfix"></div>
+  </div>
+{% endblock %}
