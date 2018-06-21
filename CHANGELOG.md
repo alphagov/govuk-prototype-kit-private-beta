@@ -16,6 +16,7 @@ Bug fixes:
 
 - [#66 Update links to point at vanity design system URL](https://github.com/alphagov/govuk-prototype-kit-private-beta/pull/66)
 
+- [#69 Use app namespace for patterns not in GOV.UK Frontend](https://github.com/alphagov/govuk-prototype-kit-private-beta/pull/69)
 
 # 7.0.0-beta.8
 
