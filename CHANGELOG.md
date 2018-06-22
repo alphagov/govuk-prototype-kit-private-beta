@@ -11,6 +11,8 @@ New features:
 
 - [#68 Reintroduce task list pattern](https://github.com/alphagov/govuk-prototype-kit-private-beta/pull/68)
 
+- [#73 Use back-link component without text parameter](https://github.com/alphagov/govuk-prototype-kit-private-beta/pull/73)
+
 Bug fixes:
 
 - [#67 Use correct casing for 'Prototype Kit' throughout](https://github.com/alphagov/govuk-prototype-kit-private-beta/pull/67)
