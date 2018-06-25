@@ -6,7 +6,7 @@ Go to the [GOV.UK Prototype Kit site](https://govuk-prototype-kit-beta.herokuapp
 
 The Prototype Kit provides a simple way to make interactive prototypes that look like pages on GOV.UK. These prototypes can be used to show ideas to people you work with, and to do user research.
 
-Read the [project principles](https://govuk-prototype-kit-beta.herokuapp.com-beta/docs/principles).
+Read the [project principles](https://govuk-prototype-kit-beta.herokuapp.com/docs/principles).
 
 ## Security
 
