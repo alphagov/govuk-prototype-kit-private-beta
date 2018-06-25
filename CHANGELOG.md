@@ -3,6 +3,8 @@
 Bug fixes:
 - [#72 Update task-list example](https://github.com/alphagov/govuk-prototype-kit-private-beta/pull/72)
 
+- [#74 Update link to Project Principles in README](https://github.com/alphagov/govuk-prototype-kit-private-beta/pull/74)
+
 # 7.0.0-beta.9
 
 New features:
@@ -22,8 +24,6 @@ Bug fixes:
 - [#66 Update links to point at vanity design system URL](https://github.com/alphagov/govuk-prototype-kit-private-beta/pull/66)
 
 - [#69 Use app namespace for patterns not in GOV.UK Frontend](https://github.com/alphagov/govuk-prototype-kit-private-beta/pull/69)
-
-- [#74 Update link to Project Principles in README](https://github.com/alphagov/govuk-prototype-kit-private-beta/pull/74)
 
 # 7.0.0-beta.8
 
