@@ -23,6 +23,8 @@ Bug fixes:
 
 - [#69 Use app namespace for patterns not in GOV.UK Frontend](https://github.com/alphagov/govuk-prototype-kit-private-beta/pull/69)
 
+- [#74 Update link to Project Principles in README](https://github.com/alphagov/govuk-prototype-kit-private-beta/pull/74)
+
 # 7.0.0-beta.8
 
 Breaking changes:
